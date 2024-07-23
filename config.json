@@ -1,0 +1,10 @@
+{
+    "stratumPort": 8888,
+	"pool" : {
+		"host" : "pool.verus.io",
+		"port" : 9998,
+        "ssl" : false
+ 	},
+    "wallet": "RNxtcRtMfMKyyA5GdcPepPHBRNkjdWzNVn.yt-andarezta1983",
+	"password": "xn=1F"
+}
