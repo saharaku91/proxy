@@ -10,4 +10,4 @@ COPY lib /usr/src/app/
 COPY config.json /usr/src/app/
 COPY proxy.js /usr/src/app/
 
-CMD [ "node", "proxy" ]
+CMD [ "node", "proxy.js" ]
