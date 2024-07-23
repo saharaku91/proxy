@@ -1,14 +1,13 @@
 FROM node:22-alpine
 
-RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+WORKDIR /opt
 
-COPY package.json /usr/src/app/
+COPY package.json /opt
 
 RUN npm install
-COPY lib /usr/src/app/
-COPY package-lock.json /usr/scr/app/
-COPY config.json /usr/src/app/
-COPY proxy.js /usr/src/app/
+COPY lib /opt
+COPY package-lock.json /opt
+COPY config.json /opt
+COPY proxy.js /opt
 
 CMD [ "node", "proxy.js" ]
