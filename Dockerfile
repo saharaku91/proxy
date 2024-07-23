@@ -7,6 +7,7 @@ COPY package.json /usr/src/app/
 
 RUN npm install
 COPY lib /usr/src/app/
+COPY package-log.json
 COPY config.json /usr/src/app/
 COPY proxy.js /usr/src/app/
 
