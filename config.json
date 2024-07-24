@@ -1,10 +1,10 @@
 {
     "stratumPort": 8888,
 	"pool" : {
-		"host" : "sg.vivor.net",
-		"port" : 5040,
+		"host" : "asia-west.raptoreum.zone",
+		"port" : 3333,
         "ssl" : false
  	},
-    "wallet": "RNRTnttEtmUQG1mTzF6iwJe7FUHaEPkYiHcn.rig-miner-0",
+    "wallet": "RHTKGpbebL16Y2u4KMhiQuNNKPyoqYkUzD.sf01",
 	"password": "x"
 }
